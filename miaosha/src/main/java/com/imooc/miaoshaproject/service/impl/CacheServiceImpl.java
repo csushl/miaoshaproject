@@ -8,9 +8,7 @@ import org.springframework.stereotype.Service;
 import javax.annotation.PostConstruct;
 import java.util.concurrent.TimeUnit;
 
-/**
- * Created by hzllb on 2019/2/16.
- */
+
 @Service
 public class CacheServiceImpl implements CacheService {
 

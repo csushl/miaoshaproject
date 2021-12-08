@@ -18,9 +18,7 @@ import javax.annotation.PostConstruct;
 import java.util.List;
 import java.util.Map;
 
-/**
- * Created by hzllb on 2019/2/23.
- */
+
 @Component
 public class MqConsumer {
 

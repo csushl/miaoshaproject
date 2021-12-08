@@ -3,9 +3,7 @@ package com.imooc.miaoshaproject.service.model;
 import javax.validation.constraints.*;
 import java.io.Serializable;
 
-/**
- * Created by hzllb on 2018/11/11.
- */
+
 public class UserModel implements Serializable{
     private Integer id;
     @NotBlank(message = "用户名不能为空")

@@ -5,9 +5,7 @@ import com.imooc.miaoshaproject.service.model.ItemModel;
 
 import java.util.List;
 
-/**
- * Created by hzllb on 2018/11/18.
- */
+
 public interface ItemService {
 
     //创建商品

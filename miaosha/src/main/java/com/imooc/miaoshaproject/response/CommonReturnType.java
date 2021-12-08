@@ -1,8 +1,6 @@
 package com.imooc.miaoshaproject.response;
 
-/**
- * Created by hzllb on 2018/11/13.
- */
+
 public class CommonReturnType {
     //表明对应请求的返回处理结果 "success" 或 "fail"
     private String status;

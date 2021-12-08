@@ -15,9 +15,8 @@ import org.springframework.data.redis.serializer.StringRedisSerializer;
 import org.springframework.session.data.redis.config.annotation.web.http.EnableRedisHttpSession;
 import org.springframework.stereotype.Component;
 
-/**
- * Created by hzllb on 2019/2/10.
- */
+// maxInactiveIntervalInSeconds: 设置 Session 失效时间(默认1800，即30分钟，单位秒)
+// 使用Redis Session 之后，原SpringBoot的server.session.timeout属性不再生效。
 @Component
 @EnableRedisHttpSession(maxInactiveIntervalInSeconds = 3600)
 public class RedisConfig {

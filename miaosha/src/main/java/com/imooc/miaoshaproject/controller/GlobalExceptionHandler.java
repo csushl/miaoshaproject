@@ -16,9 +16,7 @@ import com.imooc.miaoshaproject.error.BusinessException;
 import com.imooc.miaoshaproject.error.EmBusinessError;
 import com.imooc.miaoshaproject.response.CommonReturnType;
 
-/**
- * Created by hzllb on 2018/12/22.
- */
+
 @ControllerAdvice
 public class GlobalExceptionHandler{
     @ExceptionHandler(Exception.class)

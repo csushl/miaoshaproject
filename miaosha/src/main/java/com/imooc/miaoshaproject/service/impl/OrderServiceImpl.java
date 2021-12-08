@@ -27,9 +27,7 @@ import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-/**
- * Created by hzllb on 2018/11/18.
- */
+
 @Service
 public class OrderServiceImpl implements OrderService {
 

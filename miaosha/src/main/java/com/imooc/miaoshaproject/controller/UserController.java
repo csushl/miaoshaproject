@@ -22,9 +22,7 @@ import java.util.Random;
 import java.util.UUID;
 import java.util.concurrent.TimeUnit;
 
-/**
- * Created by hzllb on 2018/11/11.
- */
+
 @Controller("user")
 @RequestMapping("/user")
 @CrossOrigin(allowCredentials="true", allowedHeaders = "*")

@@ -1,9 +1,5 @@
 package com.imooc.miaoshaproject.util;
 
-/**
- * Created by hzllb on 2019/3/9.
- */
-
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.Graphics;

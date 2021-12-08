@@ -21,9 +21,7 @@ import org.springframework.web.bind.annotation.*;
 
 import com.imooc.miaoshaproject.service.ItemService;
 
-/**
- * Created by hzllb on 2018/11/18.
- */
+
 @Controller("/item")
 @RequestMapping("/item")
 @CrossOrigin(origins = {"*"},allowCredentials = "true")

@@ -7,9 +7,7 @@ import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import java.math.BigDecimal;
 
-/**
- * Created by hzllb on 2018/11/18.
- */
+
 public class ItemVO {
     private Integer id;
 

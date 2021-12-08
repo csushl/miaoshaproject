@@ -5,9 +5,7 @@ import org.apache.commons.lang3.StringUtils;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * Created by hzllb on 2018/11/18.
- */
+
 public class ValidationResult {
     //校验结果是否有错
     private boolean hasErrors = false;

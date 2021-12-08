@@ -28,9 +28,7 @@ import java.io.OutputStream;
 import java.util.Map;
 import java.util.concurrent.*;
 
-/**
- * Created by hzllb on 2018/11/18.
- */
+
 @Controller("order")
 @RequestMapping("/order")
 @CrossOrigin(origins = {"*"},allowCredentials = "true")

@@ -6,9 +6,7 @@ import javax.validation.constraints.NotNull;
 import java.io.Serializable;
 import java.math.BigDecimal;
 
-/**
- * Created by hzllb on 2018/11/18.
- */
+
 public class ItemModel implements Serializable{
     private Integer id;
 

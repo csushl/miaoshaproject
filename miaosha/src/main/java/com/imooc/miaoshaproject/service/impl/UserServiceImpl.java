@@ -21,9 +21,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.concurrent.TimeUnit;
 
-/**
- * Created by hzllb on 2018/11/11.
- */
+
 @Service
 public class UserServiceImpl implements UserService {
 

@@ -2,9 +2,7 @@ package com.imooc.miaoshaproject.service.model;
 
 import java.math.BigDecimal;
 
-/**
- * Created by hzllb on 2018/11/18.
- */
+
 //用户下单的交易模型
 public class OrderModel {
     //2018102100012828
